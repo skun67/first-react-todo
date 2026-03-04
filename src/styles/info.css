@@ -1,0 +1,12 @@
+.infoWrapper {
+  margin-top: 20px;
+}
+
+.infoP {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.infoP span {
+  font-weight: 600;
+}
