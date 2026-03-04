@@ -45,3 +45,7 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
+
+.trash {
+  flex-shrink: 0;
+}

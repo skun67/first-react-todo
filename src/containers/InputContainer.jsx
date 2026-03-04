@@ -12,6 +12,8 @@ export default function InputContainer({ tasks, setTasks }) {
   function handleSubmit(e) {
     e.preventDefault();
 
+    if (input == 0) return;
+
     let task = {
       id: tasks.length + 1,
       content: input,
